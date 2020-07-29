@@ -5,7 +5,7 @@ const Image = ({ entityKey, children, contentState }) => {
   return (
     <span>
       {children}
-      <img src={src} alt={alt} title={title} />
+      <img src={src} alt={alt} title={title} style={{maxWidth: '100%'}} />
     </span>
   );
 };
